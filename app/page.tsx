@@ -1,24 +1,35 @@
+import { FeaturesSection } from '@/components/FeaturesSection'
+import { Footer } from '@/components/Footer'
+import { Header } from '@/components/Header'
+import { HeroSection } from '@/components/HeroSection'
+import { IntroSection } from '@/components/IntroSection'
+import { ProfileStatsSection } from '@/components/ProfileStatsSection'
+
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-gradient-to-br from-zinc-50 to-zinc-100 dark:from-zinc-900 dark:to-black">
-      <main className="flex flex-col items-center justify-center gap-8 px-4 py-16 text-center">
-        <div className="flex flex-col items-center gap-4">
-          <h1 className="text-6xl font-bold tracking-tight text-zinc-900 dark:text-zinc-50">
-            Meeply
-          </h1>
-          <p className="max-w-lg text-xl text-zinc-600 dark:text-zinc-400">
-            Welcome to Meeply. Your simple landing page.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 sm:flex-row">
-          <button className="rounded-lg bg-zinc-900 px-6 py-3 text-base font-medium text-white transition-colors hover:bg-zinc-700 dark:bg-zinc-50 dark:text-zinc-900 dark:hover:bg-zinc-300">
-            Get Started
-          </button>
-          <button className="rounded-lg border border-zinc-300 bg-transparent px-6 py-3 text-base font-medium text-zinc-900 transition-colors hover:bg-zinc-100 dark:border-zinc-700 dark:text-zinc-50 dark:hover:bg-zinc-800">
-            Learn More
-          </button>
-        </div>
+    <div className="bg-[#0c0c0c] overflow-hidden w-full relative">
+      {/* Background decorative elements */}
+      <div className="absolute top-[-888px] left-[-223px] w-[1410px] h-[1410px] bg-[#5a2afbb2] rounded-[705.06px] blur-[312.45px] opacity-70 pointer-events-none" />
+
+      <div className="absolute top-[-335px] left-[526px] w-[1448px] h-[1232px] flex opacity-25 pointer-events-none">
+        <div className="mt-[359.3px] w-[1410.13px] h-[513.47px] ml-[19.1px] bg-[#dffe0f] rounded-[705.06px/256.73px] rotate-[-35.18deg] blur-[115.25px] opacity-[0.42]" />
+      </div>
+
+      <div className="absolute top-[145px] left-[-1357px] w-[421px] h-[421px] bg-[#420efe] pointer-events-none" />
+      <div className="absolute top-[1071px] left-[-1357px] w-[421px] h-[421px] bg-[#1d1e27] pointer-events-none" />
+      <div className="absolute top-[621px] left-[-1357px] w-[421px] h-[421px] bg-[#141419] pointer-events-none" />
+
+      {/* Header Navigation */}
+      <Header />
+
+      {/* Main Content Sections */}
+      <main className="relative">
+        <HeroSection />
+        <IntroSection />
+        <FeaturesSection />
+        <ProfileStatsSection />
+        <Footer />
       </main>
     </div>
-  );
+  )
 }
