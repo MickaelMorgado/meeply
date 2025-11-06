@@ -46,9 +46,9 @@ function HowItWorksContent() {
   return (
     <div className="text-center">
       <div className="mb-16">
-        <h2 className="text-4xl font-normal text-[#DFFE0F] font-['Climate_Crisis'] uppercase leading-[1.2] mb-6">
+        <h3 className="text-4xl font-normal text-[#DFFE0F] font-['Climate_Crisis'] uppercase leading-[1.2] mb-6">
           Profile & Stats
-        </h2>
+        </h3>
         <p className="text-xl text-white font-['Inter'] font-medium leading-[1.2] max-w-2xl mx-auto">
           View your player history, detailed game stats, and personal progress over time.
         </p>
@@ -91,9 +91,9 @@ function HowItWorksContent() {
 function MissionContent() {
   return (
     <div className="text-center">
-      <h2 className="text-4xl font-normal text-[#DFFE0F] font-['Climate_Crisis'] uppercase leading-[1.2] mb-6">
+      <h3 className="text-4xl font-normal text-[#DFFE0F] font-['Climate_Crisis'] uppercase leading-[1.2] mb-6">
         Our Mission
-      </h2>
+      </h3>
       <p className="text-xl text-white font-['Inter'] font-medium leading-[1.2] max-w-3xl mx-auto">
         To make board gaming more connected, insightful, and enjoyable for everyone.
       </p>
@@ -104,9 +104,9 @@ function MissionContent() {
 function NewsContent() {
   return (
     <div className="text-center">
-      <h2 className="text-4xl font-normal text-[#DFFE0F] font-['Climate_Crisis'] uppercase leading-[1.2] mb-6">
+      <h3 className="text-4xl font-normal text-[#DFFE0F] font-['Climate_Crisis'] uppercase leading-[1.2] mb-6">
         Latest News
-      </h2>
+      </h3>
       <p className="text-xl text-white font-['Inter'] font-medium leading-[1.2] max-w-3xl mx-auto">
         Stay updated with the latest features and board game community news.
       </p>
