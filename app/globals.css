@@ -121,8 +121,8 @@
     @apply bg-background text-foreground;
   }
 
-  /* Apply Climate Crisis font to h1 and h2 headings */
-  h1, h2 {
+  /* Apply Climate Crisis font to h1, h2, and h3 headings */
+  h1, h2, h3 {
     font-family: 'Climate Crisis', sans-serif;
   }
 }

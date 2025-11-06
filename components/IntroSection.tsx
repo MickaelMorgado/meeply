@@ -7,9 +7,9 @@ export function IntroSection() {
             Game Smarter, Play Together
           </p>
 
-          <h2 className="font-normal text-white text-2xl sm:text-3xl md:text-[46.1px] tracking-[-1.88px] leading-tight md:leading-[55.3px] max-w-[723px]">
+          <h3 className="font-normal text-white text-2xl sm:text-3xl md:text-[46.1px] tracking-[-1.88px] leading-tight md:leading-[55.3px] max-w-[723px]">
             Board games are better together, and now, smarter too.
-          </h2>
+          </h3>
 
           <div className="font-normal text-white text-sm md:text-[16.9px] leading-[25.3px] max-w-[667px] opacity-80">
             <p className="mb-4">
