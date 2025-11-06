@@ -18,7 +18,7 @@ export function IntroSection() {
               connected with your gaming circle.
             </p>
             <p>
-              Whether you're learning new rules or chasing your next
+              Whether you&apos;re learning new rules or chasing your next
               victory, Meeply is here to play with you.
             </p>
           </div>
