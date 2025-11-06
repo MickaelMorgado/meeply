@@ -5,7 +5,7 @@ export function HeroSection() {
     >
       {/* Main Title */}
       <h1
-        className="font-[900] text-[#dffe0f] text-3xl sm:text-4xl md:text-5xl lg:text-[54px] text-center uppercase leading-[1.2] max-w-[1061px] mb-4 tracking-tight"
+        className="font-[900] text-[#dffe0f] text-3xl sm:text-4xl md:text-5xl lg:text-[54px] text-center uppercase leading-[1.2] max-w-[1061px] mb-4"
       >
         Level up your board game experience
       </h1>
